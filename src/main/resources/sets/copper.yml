@@ -1,0 +1,95 @@
+level: 2
+items:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_helmet
+    count: 1
+    schema_version: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_chestplate
+    count: 1
+    schema_version: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_leggings
+    count: 1
+    schema_version: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_boots
+    count: 1
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_sword
+    count: 1
+    schema_version: 1
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_pickaxe
+    count: 1
+    schema_version: 1
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:elytra
+    count: 1
+    schema_version: 1
+item-prices:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_ingot
+    count: 5
+    schema_version: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_ingot
+    count: 8
+    schema_version: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_ingot
+    count: 7
+    schema_version: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_ingot
+    count: 4
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_ingot
+    count: 2
+    schema_version: 1
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:copper_ingot
+    count: 3
+    schema_version: 1
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_block
+    count: 16
+    schema_version: 1
+vault-prices:
+  helmet: 25
+  chestplate: 40
+  leggings: 35
+  boots: 20
+  weapon: 10
+  tool: 15
+  elytra: 10000

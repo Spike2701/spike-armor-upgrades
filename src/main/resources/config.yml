@@ -1,0 +1,105 @@
+#   ____        _ _           _                              _   _                           _
+#  / ___| _ __ (_) | _____   / \   _ __ _ __ ___   ___  _ __| | | |_ __   __ _ _ __ __ _  __| | ___  ___
+#  \___ \| '_ \| | |/ / _ \ / _ \ | '__| '_ ` _ \ / _ \| '__| | | | '_ \ / _` | '__/ _` |/ _` |/ _ \/ __|
+#   ___) | |_) | |   <  __// ___ \| |  | | | | | | (_) | |  | |_| | |_) | (_| | | | (_| | (_| |  __/\__ \
+#  |____/| .__/|_|_|\_\___/_/   \_\_|  |_| |_| |_|\___/|_|   \___/| .__/ \__, |_|  \__,_|\__,_|\___||___/
+#        |_|                                                      |_|    |___/
+
+# version: 1.0
+# support & bug report: https://discord.gg/EdD8tNnAD9
+# made by Spike2701 (dc: itzz_sp1key)
+
+
+# when on enable or on reload sets don't load correctly
+# (items and item-prices in /sets.<set>.yml can't be null,
+# levels can't be duplicated or not consecutive and must start from 1)
+loading-sets-error: "<red>Sets weren't loaded correctly. Report this to an admin"
+
+upgrades-menus:
+  upgrade-cash:
+    can-upgrade:
+      name: "<dark_green>Upgrade"
+      material: player_head
+      texture: "http://textures.minecraft.net/texture/209299a117bee88d3262f6ab98211fba344ecae39b47ec848129706dedc81e4f"
+      lore:
+        - " <dark_gray>× <gray>Price: <green><price>$"
+        - " <dark_gray>× <gray>Your balance: <green><balance>$"
+        - " <dark_gray>× <gray>You will have left: <green><after-purchasing>$"
+        - " "
+        - "<dark_gray> <st>---+--------------------+---</st> "
+        - " <dark_gray>» <white>Click <gray>to upgrade with money "
+
+    cannot-upgrade:
+      name: "<dark_red>You don't have enough money "
+      material: player_head
+      texture: "http://textures.minecraft.net/texture/209299a117bee88d3262f6ab98211fba344ecae39b47ec848129706dedc81e4f"
+      lore:
+        - " <dark_gray>× <gray>Price: <red><price>$"
+        - " <dark_gray>× <gray>Your balance: <red><balance>$"
+        - " <dark_gray>× <gray>You are missing: <red><missing>$"
+        - " "
+
+  upgrade-item:
+    can-upgrade:
+      name: "<dark_green>Upgrade"
+      lore:
+        - " <dark_gray>× <gray>Price: <green><material-name> <dark_gray>(x<amount>)"
+        - " "
+        - "<dark_gray> <st>---+--------------------+---</st> "
+        - " <dark_gray>» <white>Click <gray>to upgrade with currency "
+
+    cannot-upgrade:
+      name: "<dark_red>You can't upgrade"
+      lore:
+        - " <dark_gray>× <gray>You don't have: <red><material-name> <dark_gray>(x<amount>) "
+
+  can-upgrade:
+    material: player_head
+    texture: "http://textures.minecraft.net/texture/96339ff2e5342ba18bdc48a99cca65d123ce781d878272f9d964ead3b8ad370"
+    hide-tooltip: true
+
+  cannot-upgrade:
+    material: player_head
+    texture: "http://textures.minecraft.net/texture/fcfe8845a8d5e635fb87728ccc93895d42b4fc2e6a53f1ba78c845225822"
+    hide-tooltip: true
+
+  max-level:
+    name: "<dark_red>Maximum level "
+    material: barrier
+    lore:
+      - " <dark_gray>» <gray>You have reached the <red>maximum level "
+
+  invalid-armor:
+    name: "<dark_red>Invalid armor"
+    material: barrier
+    lore:
+      - " <dark_gray>» <gray>You can't upgrade this armor "
+
+messages:
+  no-item-to-upgrade:
+    chat: "<dark_red>🗡 <dark_gray>| <red>You don't have the item in your inventory"
+    title: "<dark_red>Error"
+    subtitle: "<gray>You have no item to upgrade"
+    sound: "entity.villager.no"
+    close-inv: true
+
+  upgraded:
+    chat: "<dark_green>🗡 <dark_gray>| <green>Your item has been upgraded to level <white><level>"
+    title: "<dark_green>Upgraded"
+    subtitle: "<gray>Current level: <white><level>"
+    sound: "entity.villager.yes"
+    close-inv: false
+
+  no-enough-money:
+    chat: "<dark_red>🗡 <dark_gray>| <red>You don't have enough money"
+    title: "<dark_red>Error"
+    subtitle: "<gray>You don't have enough money"
+    sound: "entity.villager.no"
+    close-inv: true
+
+  no-item:
+    chat: "<dark_red>🗡 <dark_gray>| <red>You can't afford this upgrade"
+    title: "<dark_red>Error"
+    subtitle: "<gray>You can't afford this upgrade"
+    sound: "entity.villager.no"
+    close-inv: true

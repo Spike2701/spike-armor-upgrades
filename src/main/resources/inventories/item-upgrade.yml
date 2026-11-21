@@ -1,0 +1,54 @@
+#   ____        _ _           _                              _   _                           _
+#  / ___| _ __ (_) | _____   / \   _ __ _ __ ___   ___  _ __| | | |_ __   __ _ _ __ __ _  __| | ___  ___
+#  \___ \| '_ \| | |/ / _ \ / _ \ | '__| '_ ` _ \ / _ \| '__| | | | '_ \ / _` | '__/ _` |/ _` |/ _ \/ __|
+#   ___) | |_) | |   <  __// ___ \| |  | | | | | | (_) | |  | |_| | |_) | (_| | | | (_| | (_| |  __/\__ \
+#  |____/| .__/|_|_|\_\___/_/   \_\_|  |_| |_| |_|\___/|_|   \___/| .__/ \__, |_|  \__,_|\__,_|\___||___/
+#        |_|                                                      |_|    |___/
+
+# version: 1.0
+# support & bug report: https://discord.gg/EdD8tNnAD9
+# made by Spike2701 (dc: itzz_sp1key)
+
+title: "Item Upgrade"
+rows: 4
+
+# for disable set to "" (empty String)
+sounds:
+  opened: "ui.button.click"
+
+# slots here are clickable slots (plugin checks this on inventory click event)
+# slots below (in items, e.g. items.1.slot) are slots of icons in gui
+slots:
+  back-button: 31
+  items-list: 35
+  upgrade-item: 30
+  upgrade-cash: 32
+  price: 9
+  current: 11
+  higher: 15
+  upgrade-icon: 13
+
+items:
+  1:
+    name: "<#2ECC71>Information"
+    material: cherry_sign
+    slot: 27
+    lore:
+      - " <dark_gray>× <gray>Here you can <green>upgrade</green> your item. "
+      - " <dark_gray>× <gray>You can pay with <white>money $"
+      - " <dark_gray>× <gray>or <white>server currency.</white> Next to this"
+      - " <dark_gray>× <gray>is the <white>list of all items"
+
+  2:
+    name: "<dark_red>Back"
+    material: barrier
+    slot: 31
+    lore:
+      - " <dark_gray>» <white>Click <gray>to go back "
+
+  3:
+    name: "<green>All items"
+    material: flow_banner_pattern
+    slot: 35
+    lore:
+      - " <dark_gray>» <white>Click <gray>to view the list "

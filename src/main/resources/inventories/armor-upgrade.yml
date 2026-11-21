@@ -1,0 +1,72 @@
+#   ____        _ _           _                              _   _                           _
+#  / ___| _ __ (_) | _____   / \   _ __ _ __ ___   ___  _ __| | | |_ __   __ _ _ __ __ _  __| | ___  ___
+#  \___ \| '_ \| | |/ / _ \ / _ \ | '__| '_ ` _ \ / _ \| '__| | | | '_ \ / _` | '__/ _` |/ _` |/ _ \/ __|
+#   ___) | |_) | |   <  __// ___ \| |  | | | | | | (_) | |  | |_| | |_) | (_| | | | (_| | (_| |  __/\__ \
+#  |____/| .__/|_|_|\_\___/_/   \_\_|  |_| |_| |_|\___/|_|   \___/| .__/ \__, |_|  \__,_|\__,_|\___||___/
+#        |_|                                                      |_|    |___/
+
+# version: 1.0
+# support & bug report: https://discord.gg/EdD8tNnAD9
+# made by Spike2701 (dc: itzz_sp1key)
+
+title: "Armor Upgrades"
+rows: 6
+
+# for disable set to "" (empty String)
+sounds:
+  opened: "ui.button.click"
+
+# slots here are clickable slots (plugin checks this on inventory click event)
+# slots below (in items, e.g. items.1.slot) are slots of icons in gui
+slots:
+  back-button: 49
+  lists: [0, 9, 18, 27]
+  prices: [2, 11, 20, 29]
+  current-armors: [3, 12, 21, 30]
+  upgrade-icons: [4, 13, 22, 31]
+  higher-armors: [5, 14, 23, 32]
+  upgrades-item: [7, 16, 25, 34]
+  upgrades-cash: [8, 17, 26, 35]
+
+items:
+  1:
+    name: "<green>All helmets"
+    material: flow_banner_pattern
+    slot: 0
+    lore:
+      - " <dark_gray>» <white>Click <gray>to view the list "
+  2:
+    name: "<green>All chestplates"
+    material: flow_banner_pattern
+    slot: 9
+    lore:
+      - " <dark_gray>» <white>Click <gray>to view the list "
+  3:
+    name: "<green>All leggings"
+    material: flow_banner_pattern
+    slot: 18
+    lore:
+      - " <dark_gray>» <white>Click <gray>to view the list "
+  4:
+    name: "<green>All boots"
+    material: flow_banner_pattern
+    slot: 27
+    lore:
+      - " <dark_gray>» <white>Click <gray>to view the list "
+
+  5:
+    name: "<#2ECC71>Information"
+    material: cherry_sign
+    slot: 45
+    lore:
+      - " <dark_gray>× <gray>Here you can <green>upgrade</green> your armor. "
+      - " <dark_gray>× <gray>You can pay with <white>money $"
+      - " <dark_gray>× <gray>or <white>server currency.</white> Above"
+      - " <dark_gray>× <gray>you will find <white>lists of all armor pieces"
+
+  6:
+    name: "<dark_red>Back"
+    material: barrier
+    slot: 49
+    lore:
+      - " <dark_gray>» <white>Click <gray>to go back "

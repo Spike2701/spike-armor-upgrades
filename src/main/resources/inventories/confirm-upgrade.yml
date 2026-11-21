@@ -1,0 +1,39 @@
+#   ____        _ _           _                              _   _                           _
+#  / ___| _ __ (_) | _____   / \   _ __ _ __ ___   ___  _ __| | | |_ __   __ _ _ __ __ _  __| | ___  ___
+#  \___ \| '_ \| | |/ / _ \ / _ \ | '__| '_ ` _ \ / _ \| '__| | | | '_ \ / _` | '__/ _` |/ _` |/ _ \/ __|
+#   ___) | |_) | |   <  __// ___ \| |  | | | | | | (_) | |  | |_| | |_) | (_| | | | (_| | (_| |  __/\__ \
+#  |____/| .__/|_|_|\_\___/_/   \_\_|  |_| |_| |_|\___/|_|   \___/| .__/ \__, |_|  \__,_|\__,_|\___||___/
+#        |_|                                                      |_|    |___/
+
+# version: 1.0
+# support & bug report: https://discord.gg/EdD8tNnAD9
+# made by Spike2701 (dc: itzz_sp1key)
+
+title: "Confirm Upgrade"
+rows: 3
+
+# for disable set to "" (empty String)
+sounds:
+  opened: "ui.button.click"
+  upgraded: "entity.villager.yes"
+
+# slots here are clickable slots (plugin checks this on inventory click event)
+# slots below (in items, e.g. items.1.slot) are slots of icons in gui
+slots:
+  cancel: 15
+  confirm: 11
+
+items:
+  confirm:
+    name: "<dark_green>Confirm"
+    material: lime_wool
+    slot: 11
+    lore:
+      - " <dark_gray>» <white>Click <gray>to confirm "
+
+  cancel:
+    name: "<dark_red>Cancel"
+    material: red_wool
+    slot: 15
+    lore:
+      - " <dark_gray>» <white>Click <gray>to cancel "

@@ -1,0 +1,127 @@
+#   ____        _ _           _                              _   _                           _
+#  / ___| _ __ (_) | _____   / \   _ __ _ __ ___   ___  _ __| | | |_ __   __ _ _ __ __ _  __| | ___  ___
+#  \___ \| '_ \| | |/ / _ \ / _ \ | '__| '_ ` _ \ / _ \| '__| | | | '_ \ / _` | '__/ _` |/ _` |/ _ \/ __|
+#   ___) | |_) | |   <  __// ___ \| |  | | | | | | (_) | |  | |_| | |_) | (_| | | | (_| | (_| |  __/\__ \
+#  |____/| .__/|_|_|\_\___/_/   \_\_|  |_| |_| |_|\___/|_|   \___/| .__/ \__, |_|  \__,_|\__,_|\___||___/
+#        |_|                                                      |_|    |___/
+
+# version: 1.0
+# support & bug report: https://discord.gg/EdD8tNnAD9
+# made by Spike2701 (dc: itzz_sp1key)
+
+title: "Upgrades"
+rows: 5
+
+# for disable set to "" (empty String)
+sounds:
+  opened: "ui.button.click"
+
+# slots here are clickable slots (plugin checks this on inventory click event)
+# slots below (in items, e.g. items.1.slot) are slots of icons in gui
+slots:
+  armor: 20
+  weapon: 22
+  tool: 24
+  elytra: -1
+
+items:
+  armor:
+    name: "<#2ECC71>Armor"
+    material: golden_helmet
+    lore:
+      - " "
+      - " <dark_gray>× <gray>Here you can upgrade your armor "
+      - " <dark_gray>× <gray>for <white>server currency <gray>or <green>money <bold>$"
+      - " "
+      - "<dark_gray> <st>---+--------------------------+---</st> "
+      - " <dark_gray>» <white>Click <gray>to open "
+      - " "
+    # the same slot must be in config.yml in upgrade-menu.armor-upgrade-slot
+    slot: 20
+    flags:
+      - hide_attributes
+      - hide_enchants
+    enchantments:
+      unbreaking: 1
+
+  sword:
+    name: "<#2ECC71>Weapon"
+    material: copper_sword
+    lore:
+      - " "
+      - " <dark_gray>× <gray>Here you can upgrade your weapon "
+      - " <dark_gray>× <gray>for <white>server currency <gray>or <green>money <bold>$"
+      - " "
+      - "<dark_gray> <st>---+-------------------------+---</st> "
+      - " <dark_gray>» <white>Click <gray>to open "
+      - " "
+    # the same slot must be in config.yml in upgrade-menu.weapon-upgrade-slot
+    slot: 22
+    flags:
+      - hide_attributes
+      - hide_enchants
+    enchantments:
+      unbreaking: 1
+
+  pickaxe:
+    name: "<#2ECC71>Pickaxe"
+    material: diamond_pickaxe
+    lore:
+      - " "
+      - " <dark_gray>× <gray>Here you can upgrade your pickaxe "
+      - " <dark_gray>× <gray>for <white>server currency <gray>or <green>money <bold>$"
+      - " "
+      - "<dark_gray> <st>---+--------------------------+---</st> "
+      - " <dark_gray>» <white>Click <gray>to open "
+      - " "
+    # the same slot must be in config.yml in upgrade-menu.tool-upgrade-slot
+    slot: 24
+    flags:
+      - hide_attributes
+      - hide_enchants
+    enchantments:
+      unbreaking: 1
+
+  elytra:
+    name: "<#2ECC71>Elytra"
+    material: elytra
+    lore:
+      - " "
+      - " <dark_gray>× <gray>Here you can upgrade your elytra "
+      - " <dark_gray>× <gray>for <white>server currency <gray>or <green>money <bold>$"
+      - " "
+      - "<dark_gray> <st>---+-------------------------+---</st> "
+      - " <dark_gray>» <white>Click <gray>to open "
+      - " "
+    # the same slot must be in config.yml in upgrade-menu.armor-upgrade-slot
+    slot: -1
+    flags:
+      - hide_attributes
+      - hide_enchants
+    enchantments:
+      unbreaking: 1
+
+  1:
+    material: green_bundle
+    hide-tooltip: true
+    slots: [ 0, 8, 36, 44 ]
+
+  2:
+    material: lime_stained_glass_pane
+    hide-tooltip: true
+    slots: [ 1, 7, 37, 43 ]
+
+  3:
+    material: green_stained_glass_pane
+    hide-tooltip: true
+    slots: [ 2, 6, 38, 42 ]
+
+  4:
+    material: iron_bars
+    hide-tooltip: true
+    slots: [ 3, 5, 39, 41 ]
+
+  5:
+    material: white_stained_glass_pane
+    hide-tooltip: true
+    slots: [ 9, 17, 27, 35 ]

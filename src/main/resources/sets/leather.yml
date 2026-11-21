@@ -1,0 +1,95 @@
+level: 1
+items:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather_helmet
+    count: 1
+    schema_version: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather_chestplate
+    count: 1
+    schema_version: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather_leggings
+    count: 1
+    schema_version: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather_boots
+    count: 1
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:wooden_sword
+    count: 1
+    schema_version: 1
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:wooden_pickaxe
+    count: 1
+    schema_version: 1
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:elytra
+    count: 1
+    schema_version: 1
+item-prices:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather
+    count: 5
+    schema_version: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather
+    count: 8
+    schema_version: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather
+    count: 7
+    schema_version: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:leather
+    count: 4
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:oak_planks
+    count: 2
+    schema_version: 1
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:oak_planks
+    count: 3
+    schema_version: 1
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_block
+    count: 16
+    schema_version: 1
+vault-prices:
+  helmet: 5
+  chestplate: 8
+  leggings: 7
+  boots: 4
+  weapon: 2
+  tool: 3
+  elytra: 10000

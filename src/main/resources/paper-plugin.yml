@@ -1,0 +1,24 @@
+name: spike-armor-upgrades
+version: '${version}'
+
+main: dev.spike.spikeArmorUpgrades.SpikeArmorUpgrades
+api-version: '26.3'
+load: POSTWORLD
+author: Spike2701
+website: https://discord.gg/EdD8tNnAD9
+description: Upgrade armor, weapons and tools via GUI, made for BoxPvP
+dependencies:
+  server:
+    Vault:
+      load: BEFORE
+      required: true
+      join-classpath: true
+
+permissions:
+  spike-armor-upgrades.command.upgrade:
+    description: Allows to open upgrade menu
+    default: true
+
+  spike-armor-upgrades.command.sau:
+    description: Allow to manage sets
+    default: op

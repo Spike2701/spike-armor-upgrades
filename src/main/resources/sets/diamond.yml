@@ -1,0 +1,95 @@
+level: 4
+items:
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:elytra
+    count: 1
+    schema_version: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_helmet
+    count: 1
+    schema_version: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_chestplate
+    count: 1
+    schema_version: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_leggings
+    count: 1
+    schema_version: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_boots
+    count: 1
+    schema_version: 1
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_pickaxe
+    count: 1
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_sword
+    count: 1
+    schema_version: 1
+item-prices:
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond_block
+    count: 16
+    schema_version: 1
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond
+    count: 5
+    schema_version: 1
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond
+    count: 8
+    schema_version: 1
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond
+    count: 7
+    schema_version: 1
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond
+    count: 4
+    schema_version: 1
+  tool:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond
+    count: 3
+    schema_version: 1
+  weapon:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 5023
+    id: minecraft:diamond
+    count: 2
+    schema_version: 1
+vault-prices:
+  elytra: 10000
+  helmet: 625
+  chestplate: 1000
+  leggings: 875
+  boots: 500
+  tool: 375
+  weapon: 250
